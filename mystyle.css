@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; background-color:#D9430D } 
+.container { width: 90%; margin: auto; height: 1800px;
+} 
+a:link, a:visited {
+  background-color: #f44336;
+  color:#262626;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:#F23535
+}
+.intropic{
+	display: flex; align-items: center; flex-direction: column; padding:40px; justify-content: center space-between;
+}
+.header { display: flex; justify-content: space-around; align-items: center; padding: 20px 0; background-color:#F2A30F } 
+.nav { display: flex; gap: 20px; } 
+.hero { display: flex; flex-direction: column; align-items: center; text-align: center; margin: 20px 0; } 
+.hero img { width: 100%; max-width: 800px; height: auto; } 
+.dishes { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin: 20px 0; } 
+.dish { flex: 1; min-width: 250px; text-align: center; margin-top: 50px } 
+.dish img { width: 300px; height: auto; } 
+.info { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin: 20px 0; flex-direction: row; } 
+.dinnertable {
+	}
+.resttitle{
+	
+}
+.flavors-regular {
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+  font-style: normal;
+font-size: 40px	
+}
+.footer { text-align: center; padding: 20px 0; } 
+@media (max-width: 768px) { .header, .dishes, .info { flex-direction: column; align-items: center; }}
